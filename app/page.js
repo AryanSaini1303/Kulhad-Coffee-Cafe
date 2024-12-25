@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <h1>Kulhad Coffee Cafe</h1>
+    <h1>Kulhad Coffee Cafe Website</h1>
   );
 }
