@@ -78,15 +78,15 @@ export default function Home() {
       </h2>
       <Image
         src={"/coffee_mug1.png"}
-        width={140}
-        height={310}
+        width={90}
+        height={130}
         alt=""
         className={styles.coffee_mug1}
       />
       <Image
         src={"/coffee_mug2.png"}
-        width={140}
-        height={310}
+        width={90}
+        height={130}
         alt=""
         className={styles.coffee_mug2}
       />
@@ -134,8 +134,8 @@ export default function Home() {
       />
       <Image
         src={"/kulhad.png"}
-        width={290}
-        height={650}
+        width={130}
+        height={170}
         alt=""
         className={styles.kulhad}
       />
