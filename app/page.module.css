@@ -19,7 +19,8 @@
   gap: 0.5rem;
   align-items: center;
   animation: hameMenuReveal 0.5s forwards;
-  z-index: 3;
+  z-index: 10;
+  box-shadow: 0.3rem 0.3rem 0.3rem black, inset 0 0 0.5rem var(--primary-color);
 }
 .navbar {
   display: flex;
