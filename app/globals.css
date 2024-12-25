@@ -1,10 +1,33 @@
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-color: #6c3608;
+  --secondary-color: #ede1d7;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  padding: 0 0.5rem;
+  background-color: #fafafa;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.bean1 {
+  position: absolute;
+  top: 8rem;
+  right: 0;
+  height: 14rem;
+  width: 17rem;
+  filter: invert(100%);
+  z-index: 1;
+}
+.bean2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 14rem;
+  width: 17rem;
+  filter: invert(100%);
+  z-index: 1;
 }
