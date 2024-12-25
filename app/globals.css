@@ -21,6 +21,17 @@ body {
   width: 17rem;
   filter: invert(100%);
   z-index: 1;
+  animation: bean1_reveal 0.5s linear forwards;
+}
+@keyframes bean1_reveal {
+  0%{
+    transform: translateX(0.5rem);
+    opacity: 0.5;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 .bean2 {
   position: absolute;
@@ -30,4 +41,15 @@ body {
   width: 17rem;
   filter: invert(100%);
   z-index: 1;
+  animation: bean2_reveal 0.5s linear forwards;
+}
+@keyframes bean2_reveal {
+  0%{
+    transform: translateX(-0.5rem);
+    opacity: 0.5;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

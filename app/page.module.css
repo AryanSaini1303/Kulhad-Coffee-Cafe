@@ -85,12 +85,34 @@
   z-index: 2;
   top: 13rem;
   left: 0;
+  animation: coffee_mug1_reveal 0.5s linear forwards;
+}
+@keyframes coffee_mug1_reveal {
+  0%{
+    transform: translateX(-2rem) rotate(-15deg);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+  }
 }
 .coffee_mug2{
   position: absolute;
   z-index: 1;
   top: 12.5rem;
   left: 3.4rem;
+  animation: coffee_mug2_reveal 0.5s linear forwards;
+}
+@keyframes coffee_mug2_reveal {
+  0%{
+    transform: translateX(2rem) rotate(15deg);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+  }
 }
 .logo1{
   position: absolute;
@@ -98,6 +120,17 @@
   top: 18.5rem;
   left: 4.5rem;
   z-index: 3;
+  animation: logo1_reveal 0.5s linear forwards;
+}
+@keyframes logo1_reveal {
+  0%{
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 .bg1{
   position: absolute;
@@ -122,4 +155,15 @@
   bottom: 0;
   right: 0;
   transform: rotate(-25deg);
+  animation: kulhad_reveal 0.5s linear forwards;
+}
+@keyframes kulhad_reveal {
+  0%{
+    transform: translateX(2rem) rotate(-10deg);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) rotate(-25deg);
+    opacity: 1;
+  }
 }
