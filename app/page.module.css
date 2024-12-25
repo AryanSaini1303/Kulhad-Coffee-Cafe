@@ -80,22 +80,22 @@
   }
 }
 .coffee_mug1{
-  position: relative;
+  position: absolute;
   z-index: 2;
-  bottom: 2.5rem;
-  right: 1.8rem;
+  top: 10rem;
+  left: -1rem;
 }
 .coffee_mug2{
-  position: relative;
+  position: absolute;
   z-index: 1;
-  bottom: 4rem;
-  right: 8rem;
+  top: 8.5rem;
+  left: 2rem;
 }
 .logo1{
-  position: relative;
+  position: absolute;
   z-index: 1;
-  bottom: 11.2rem;
-  left: 4.5rem;
+  top: 20.5rem;
+  left: 5.5rem;
   z-index: 3;
 }
 .bg1{
@@ -118,7 +118,7 @@
 }
 .kulhad{
   position: absolute;
-  top: 18rem;
-  left: 2.5rem;
+  top: 22rem;
+  right: 0;
   transform: rotate(-25deg);
 }
